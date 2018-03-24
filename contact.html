@@ -2,58 +2,100 @@
 
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    
-        
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <title>Conor O'Neil Contact Form</title>
+</head>
+
+<body>
+
+    <div class="name-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <h1 class="name align-middle">Conor O'Neil</h1>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href=index.html>About</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href=portfolio.html>Portfolio</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href=contact.html>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-
-        <title>Conor O'Neil Contact Form</title>
-    </head>
-
-    <body>
-         
-            <header>
-                    <div class="header-content">
-                        <h1>Conor O'Neil</h1>
-                        <nav>
-                        <ul>
-                            <li><a href=index.html>About</a></li>
-                            <li><a href=portfolio.html>Portfolio</a></li>
-                            <li><a href=contact.html>Contact</a></li>
-                        </ul>
-                        </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <section>
+                    <div class="page-name">
+                        <h2>Contact</h2>
                     </div>
-                </header>
-                
-        
-            <section>
-       
-                <header class="page-name">
-                    <h2>Contact</h2>
-                </header>
-        
-                <form>
-                    Name<br>
-                    <div class="input-field">
-                    <input type="text" name="name" value="John Smith"><br>
-                    Email<br>
-                    <input type="email" name="email" value="example@gmail.com"><br>
-                     </div>
-                    Message<br>
-                    <textarea  name="message" rows="10" cols="30"></textarea> <br>
-                    <input class="button" type="button" onclick="alert('Submitted')" value="Submit">
-                </form>
-        
-                <div class="clear"></div>
 
-            </section>
+                    <form>
+                        Name
+                        <br>
+                        <div class="input-field">
+                            <input type="text" name="name" value="John Smith">
+                            <br> Email
+                            <br>
+                            <input type="email" name="email" value="example@gmail.com">
+                            <br>
+                        </div>
+                        Message
+                        <br>
+                        <textarea name="message" rows="10" cols="30"></textarea>
+                        <br>
+                        <input class="button" type="button" onclick="alert('Submitted')" value="Submit">
+                    </form>
+                    <div class="clear"></div>
 
-            <div class="push"></div>
+                </section>
+
+
+            </div>
+
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <section>
+                    <div class="container"></div>
+                    <div class="page-name">
+                        <h3>Connect with Me</h3>
+                    </div>
+
+                    <i class="fa fa-github-square" style="font-size:70px;"></i>
+                    <i class="fa fa-linkedin-square" style="font-size:70px;color:#007BB6;"></i>
+                    <i class="fa fa-stack-overflow" style="font-size:70px;color: orange;"></i>
+                </section>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="push"></div>
 
     <footer class="footer">Copyright©</footer>
 
-    </body>
+</body>

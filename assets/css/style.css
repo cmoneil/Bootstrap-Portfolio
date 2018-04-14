@@ -21,6 +21,18 @@ ul.list-inline {
     }
 }
 
+.github{
+    color: black;
+}
+
+.linkedIn {
+    color: #327ab1;
+}
+
+.stackOverFlow {
+    color: #f3a73c;
+}
+
 .caption p {
     padding-top: 10px;
 }

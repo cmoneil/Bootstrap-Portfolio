@@ -8,6 +8,7 @@ body {
     min-height: 75px;
 
 }
+
 .about p {
     padding-top: 10px;
 }
@@ -23,14 +24,32 @@ ul.list-inline {
 
 .github{
     color: black;
+    font-size: 70px;
+}
+
+.github:hover{
+    text-decoration: none;
+
 }
 
 .linkedIn {
     color: #327ab1;
+    font-size: 70px;
+}   
+
+.linkedIn:hover {
+    text-decoration: none;
+
 }
 
 .stackOverFlow {
     color: #f3a73c;
+    font-size: 70px;
+}
+
+.stackOverFlow:hover {
+    text-decoration: none;
+
 }
 
 .caption p {
